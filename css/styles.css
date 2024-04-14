@@ -528,11 +528,11 @@ max-width: 280px;
          pointer-events: none;
          visibility: hidden;
     }
-    /* .backdrop.is-open{
+    .backdrop.is-open{
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
-    } */
+    }
     .modal{
         width: 408px;
         min-height: 584px;
