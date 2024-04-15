@@ -731,9 +731,9 @@ max-width: 280px;
         margin-left: 80px;
     }
     .subscribe-button{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         gap: 16px;
         border-radius: 4px;
         min-width: 165px;
@@ -772,8 +772,10 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     gap: 24px;
+    max-width: 453px;
+    margin-left: 80px
 }
 .button-send-svg{
     margin-left: 16px;
-    
+
 }
