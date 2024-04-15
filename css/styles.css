@@ -579,11 +579,11 @@ max-width: 280px;
     fill: #ffffff;
 }
     .modal-buttom:hover
-     {color: #404BBF;
+     {background-color: #404BBF;
         border: none;
     }
     .modal-buttom:focus
-     {color: #404BBF;
+     {background-color: #404BBF;
         border: none;
     }
 
