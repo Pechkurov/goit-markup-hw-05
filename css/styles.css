@@ -528,10 +528,10 @@ max-width: 280px;
          pointer-events: none;
          visibility: hidden;
     }
-    .backdrop.is-open{
+    /* .backdrop.is-open{
         opacity: 1;
         pointer-events: auto;
-        visibility: visible;
+        visibility: visible; */
     }
     .modal{
         width: 408px;
@@ -709,6 +709,10 @@ max-width: 280px;
 
     /* --------------FOOTER INPUT--------------- */
 
+    .form{
+        display: flex;
+        gap: 24px;
+    }
     .footer-input{
         font-weight: 500;
     font-size: 16px;
@@ -732,7 +736,7 @@ max-width: 280px;
         align-items: center;
         gap: 16px;
         border-radius: 4px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background-color: #4d5ae5;
         outline: transparent;
@@ -742,7 +746,9 @@ max-width: 280px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
     }
 .email{
     font-weight: 400;
@@ -756,6 +762,7 @@ border-radius: 4px;
 width: 264px;
 height: 40px;
 background-color: #2e2f42;
+padding-left: 16px;
 }
 .footer-input{
 margin-bottom: 16px;
@@ -765,4 +772,8 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     gap: 24px;
+}
+.button-send-svg{
+    margin-left: 16px;
+    
 }
