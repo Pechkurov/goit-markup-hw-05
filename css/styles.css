@@ -768,11 +768,12 @@ padding-left: 16px;
 margin-bottom: 16px;
 }
 .footer-send{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     gap: 24px;
     max-width: 453px;
+    height: 80px;
     margin-left: 80px
 }
 .button-send-svg{
