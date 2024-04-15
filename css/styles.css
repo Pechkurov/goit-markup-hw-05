@@ -572,10 +572,10 @@ max-width: 280px;
     transition: fill 250ms 
     cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close :hover{
+.icon-close:hover{
     fill: #ffffff;
 }
-.icon-close :focus{
+.icon-close:focus{
     fill: #ffffff;
 }
     .modal-buttom:hover
@@ -636,7 +636,7 @@ max-width: 280px;
         transition: fill 250ms 
         cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .modal-icons :focus{
+    .modal-icons:focus{
         fill: #4D5AE5;
     }
     .modal-input-wrap{
@@ -662,7 +662,7 @@ max-width: 280px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .textarea-input-text :focus{
+    .textarea-input-text:focus{
         border-color: #4D5AE5;
     }
     .checkbox {
