@@ -583,16 +583,18 @@ max-width: 280px;
 } */
 .modal-buttom:hover, .modal-buttom:focus {
     fill: #ffffff;
+    background-color: #404BBF;
+        border: none;
 }
-}
-    .modal-buttom:hover
+
+    /* .modal-buttom:hover, .modal-buttom:focus
      {background-color: #404BBF;
         border: none;
-    }
-    .modal-buttom:focus
+    } */
+    /* .modal-buttom:focus
      {background-color: #404BBF;
         border: none;
-    }
+    } */
 
     .modal-title{
     font-weight: 500;
